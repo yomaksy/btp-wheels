@@ -1,0 +1,35 @@
+.request {
+    background: #e53e2b;
+}
+.request h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.request h2 {
+    font-size: 100px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #fff;
+}
+.request h2 span:first-child {
+    font-weight: normal;
+}
+.request p {
+    font-size: 20px;
+    color: #fff;
+}
+.request a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.request article p {
+    font-size: 18px;
+}
+.request h4 {
+    font-size: 30px;
+    color: #fff;
+}

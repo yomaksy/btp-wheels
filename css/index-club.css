@@ -1,0 +1,17 @@
+#club h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#club h2 {
+    font-size: 50px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+#club h2 span:first-child {
+    font-weight: normal;
+}
+#club div,
+#club p {
+    font-size: 18px;
+}

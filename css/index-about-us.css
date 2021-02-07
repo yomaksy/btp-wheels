@@ -1,0 +1,22 @@
+#about-us h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#about-us h2 {
+    font-size: 50px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+#about-us h2 span:first-child {
+    font-weight: normal;
+}
+#about-us p {
+    font-size: 18px;
+}
+#about-us a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

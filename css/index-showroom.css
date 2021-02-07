@@ -1,0 +1,32 @@
+#showroom h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #e53e2b;
+}
+#showroom h2 {
+    font-size: 50px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+#showroom h2 span:first-child {
+    font-weight: normal;
+}
+#showroom ul {
+    font-size: 18px;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+#showroom h4 {
+    font-size: 24px;
+}
+#showroom p {
+    font-size: 18px;
+}
+#forged-container a,
+#aerodisc-container a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

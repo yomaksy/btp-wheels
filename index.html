@@ -5,17 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BTP Wheels</title>
     <link rel="icon" href="img/btp-wheels-icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index-header.css">
+    <link rel="stylesheet" href="css/index-screen-one.css">
+    <link rel="stylesheet" href="css/index-about-us.css">
+    <link rel="stylesheet" href="css/index-new-arrivals.css">
+    <link rel="stylesheet" href="css/index-showroom.css">
+    <link rel="stylesheet" href="css/index-request.css">
+    <link rel="stylesheet" href="css/index-club.css">
+    <link rel="stylesheet" href="css/index-partners.css">
+    <link rel="stylesheet" href="css/index-contacts.css">
 </head>
 <body>
     <header>
         <nav>
-            <div id="btp-wheels">BTP Wheels.</div>
-            <ul>
+            <div id="btp-wheels">
+                <span class="btp-logo-one">BTP</span>
+                <span class="btp-logo-two">Wheels.</span>
+            </div>
+            <ul class="menu">
                 <li><a href="#about-us">About us</a></li>
                 <li>
-                    <div>
-                        <button>Wheels</button>
-                        <div>
+                    <div class="dropdown">
+                        <button class="dropdown-button">Wheels</button>
+                        <div class="dropdown-content">
                             <a href="forged.html">Forged</a>
                             <a href="aerodisc.html">Aerodisc</a>
                         </div>
@@ -24,27 +39,32 @@
                 <li><a href="#club">Club</a></li>
                 <li><a href="#contacts">Contacts</a></li>
             </ul>
-            <ul>
-                <li><a target="_blank" href="https://www.facebook.com">Facebook</a></li>
-                <li><a target="_blank" href="https://www.instagram.com">Instagram</a></li>
-                <li><a target="_blank" href="https://www.youtube.com">Youtube</a></li>
+            <ul class="social-icons">
+                <li><a target="_blank" href="https://www.facebook.com"><img src="img/facebook-icon-one.svg" alt="Facebook"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com"><img src="img/instagram-icon-one.svg" alt="Instagram"></a></li>
+                <li><a target="_blank" href="https://www.youtube.com"><img src="img/youtube-icon-one.svg" alt="Youtube"></a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div>
+        <div class="screen-one">
             <video autoplay muted loop>
                 <source src="video/vw-golf.mp4" type="video/mp4">
             </video>
-            <h1>Born to Perform.</h1>
+            <h1>
+                <span>Born to</span>
+                <span>perform.</span>
+            </h1>
             <p>We can find any wheel for your car.<br>Just send us a message.</p>
             <a href="#contacts">Request a quote</a>
-            <div>
+            <div class="screen-one-contacts">
                 <div>
+                    <!-- <img src="#" alt="Phone Call Icon"> -->
                     <span>Call Us 24/7</span>
                     <span>+ 38 063 555-00-00</span>
                 </div>
                 <div>
+                    <!-- <img src="#" alt="Location Icon"> -->
                     <span>We are Here</span>
                     <span>105b Haharina Ave, Dnipro</span>
                 </div>
@@ -52,21 +72,38 @@
         </div>
         <div id="about-us">
             <img src="img/ken-block.jpg" alt="Ken Block">
-            <p>/ Who we are</p>
-            <h2>Born badass.</h2>
-            <p>Positioned as a young brand, BTP Wheels has a high standing among aficionados of sophisticated rims and tuning experts. We pride ourselves in our ability to provide every road enthusiast with the aesthetics and function they desire in a variety of fitments. BTP Wheels offers the most complete line of real badass wheels on the road market today.</p>
-            <p>The wheels are available 24/7. No matter where in Europe a BTP wheel is needed, thanks to a vast supplier network and a 24-h shipping service, the dream wheel will reach almost all corners of the continent promptly.</p>
+            <h3>/ Who we are</h3>
+            <h2>
+                <span>Born</span>
+                <span>badass.</span>
+            </h2>
+            <p>Positioned as a young brand, BTP Wheels has a high standing<br>
+                among aficionados of sophisticated rims and tuning experts.<br>
+                We pride ourselves in our ability to provide every road enthusiast<br>
+                with the aesthetics and function they desire in a variety of<br>
+                fitments. BTP Wheels offers the most complete line of real badass<br>
+                wheels on the road market today.</p>
+            <p>The wheels are available 24/7. No matter where in Europe a BTP<br>
+                wheel is needed, thanks to a vast supplier network and a 24-h<br>
+                shipping service, the dream wheel will reach almost all corners of<br>
+                the continent promptly.</p>
             <a href="#new-arrivals">Browse the wheels</a>
         </div>
         <div id="new-arrivals">
-           <p>/ Wheels</p> 
-           <h2>New arrivals.</h2>
+           <h3>/ Wheels</h3> 
+           <h2>
+               <span>New</span>
+               <span>arrivals.</span>
+           </h2>
            <a href="aerodisc.html"><img src="img/rotiform-aero-white-one.png" alt="Rotiform Aero White"></a>
         </div>
         <div id="showroom">
             <img src="img/rotiform-aero-drawing.png" alt="Rotiform Aero Drawing">
-            <p>/ What we offer</p>
-            <h2>Showroom.</h2>
+            <h3>/ What we offer</h3>
+            <h2>
+                <span>Show</span>
+                <span>room.</span>
+            </h2>
             <ul>
                 <li><a href="#forged-container">Forged</a></li>
                 <li><a href="#aerodisc-container">Aerodisc</a></li>
@@ -74,82 +111,96 @@
             <div id="forged-container">
                 <article>
                     <img src="img/fuel-logo-white.png" alt="Fuel Logo">
-                    <h3>Fuel</h3>
-                    <p>Find the best wheels for Jeep Cherokee, Wrangler, Renegade, and other models.</p>
+                    <h4>Fuel</h4>
+                    <p>Find the best wheels for Jeep<br>Cherokee, Wrangler, Renegade,<br>and other models.</p>
                     <a href="forged.html">Find wheels</a>
                 </article>
                 <article>
                     <img src="img/rotiform-logo-white.png" alt="Rotiform Logo">
-                    <h3>Rotiform</h3>
-                    <p>From classic Chevrolet Aveo to fast and furious Corvette, we've got you covered.</p>
+                    <h4>Rotiform</h4>
+                    <p>From classic Chevrolet Aveo to<br>fast and furious Corvette, we've<br>got you covered.</p>
                     <a href="forged.html">Find wheels</a>
                 </article>
             </div>
             <div id="aerodisc-container">
                 <article>
                     <img src="img/fuel-logo-white.png" alt="Ronal Logo">
-                    <h3>Ronal</h3>
-                    <p>Order the best wheels for your VW Polo, Golf, Beetle, and other models.</p>
+                    <h4>Ronal</h4>
+                    <p>Order the best wheels for your<br>VW Polo, Golf, Beetle, and other<br>models.</p>
                     <a href="aerodisc.html">Find wheels</a>
                 </article>
                 <article>
                     <img src="img/rotiform-logo-white.png" alt="Rotiform Logo">
-                    <h3>Rotiform</h3>
-                    <p>Enjoy the thrilling power of your BMW X1, 3 Series, M5 or any other model.</p>
+                    <h4>Rotiform</h4>
+                    <p>Enjoy the thrilling power of your<br>BMW X1, 3 Series, M5 or any<br>other model.</p>
                     <a href="aerodisc.html">Find wheels</a>
                 </article>
             </div>
         </div>
-        <div>
-            <p>/ Request</p>
-            <h2>Need for wheel?</h2>
+        <div class="request">
+            <h3>/ Request</h3>
+            <h2>
+                <span>Need for</span>
+                <span>wheel?</span>
+            </h2>
             <p>Press the button , fill out the form, and we'll find it for you!</p>
             <a href="#contacts">Send a request</a>
             <div>
                 <article>
-                    <h3>No delays</h3>
-                    <p>We promise you won't wait for your wheels for months. If we can't find it, we'll issue you a refund.</p>
+                    <img src="img/no-delays-icon.png" alt="No Delays">
+                    <h4>No Delays</h4>
+                    <p>We promise you won't wait for your wheels<br>for months. If we can't find it, we'll issue<br>you a refund.</p>
                 </article>
                 <article>
-                    <h3>High quality</h3>
-                    <p>We work only with reliable suppliers and sell high-quality wheels because your safety on the road depends on it.</p>
+                    <img src="img/high-quality-icon.png" alt="High Quality">
+                    <h4>High Quality</h4>
+                    <p>We work only with reliable suppliers and<br>sell high-quality wheels because your<br>safety on the road depends on it.</p>
                 </article>
                 <article>
-                    <h3>Big choice</h3>
-                    <p>The wheel for your car won't cost you a fortune. We always offer several suitable wheels in different price segments.</p>
+                    <img src="img/big-choice-icon.png" alt="Big Choice">
+                    <h4>Big Choice</h4>
+                    <p>The wheel for your car won't cost you a<br>fortune. We always offer several suitable<br>wheels in different price segments.</p>
                 </article>
             </div>
         </div>
         <div id="club">
             <img src="img/victoria-nguyen.jpg" alt="Victoria Nguyen">
-            <p>/ BTP Club</p>
-            <h2>Victoria Nguyen.</h2>
+            <h3>/ BTP Club</h3>
+            <h2>
+                <span>Victoria</span>
+                <span>Nguyen.</span>
+            </h2>
             <div>
                 <span>Wheel: Fuel FF96</span>
                 <span>Music: EDM</span>
                 <span>Sport: Horseback riding</span>
             </div>
-            <p>As Winter draws to an end, the arrival of Spring embodies the season of change. For many enthusiasts, change begins in the garage, where a vision is revolutionized into a reality. These sacred grounds are where an idea begin, and transform through the process of imagination.</p>
+            <p>As Winter draws to an end, the arrival of Spring<br>
+                embodies the season of change. For many<br>
+                enthusiasts, change begins in the garage, where a<br>
+                vision is revolutionized into a reality.<br>
+                These sacred grounds are where an idea begin, and<br>
+                transform through the process of imagination.</p>
         </div>
-        <div>
-            <img src="img/ronal-logo-black.svg" alt="Ronal Logo">
+        <div class="partners">
+            <img src="img/ronal-logo-white.svg" alt="Ronal Logo">
             <img src="img/rotiform-logo-white.png" alt="Rotiform Logo">
             <img src="img/fuel-logo-white.png" alt="Fuel Logo">
             <img src="img/raceism-logo-white.png" alt="Raceism Logo">
             <img src="img/wekfest-logo-white.png" alt="Wekfest Logo">
-            <img src="img/stancenation-logo-white.png" alt="Stancenation">
+            <img src="img/stancenation-logo-white.png" alt="Stancenation Logo">
         </div>
         <div id="contacts">
             <article>
-                <h3>Open Hours</h3>
+                <h4>Open Hours</h4>
                 <span>Mon - Fri: 8.00 am - 6.00 pm</span>
                 <span>Saturday: 9.00am - 4.00 pm</span>
                 <span>Sunday: 9.00am - 4.00 pm</span>
             </article>
             <article>
-                <h3>Call Us 24/7</h3>
+                <h4>Call Us 24/7</h4>
                 <span>+38 063 555-00-00</span>
-                <h3>We are Here</h3>
+                <h4>We are Here</h4>
                 <span>105b Haharina Ave<br>Dnipro, 49000</span>
             </article>
             <article>

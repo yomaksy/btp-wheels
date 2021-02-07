@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#btp-wheels {
+    font-size: 31px;
+    font-style: italic;
+}
+.btp-logo-one {
+    font-weight: bold;
+    color: #e53e2b;
+}
+.btp-logo-two {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+header nav .menu {
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+.dropdown-content a {
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.social-icons {
+    list-style-type: none;
+    width: 32px;
+}
