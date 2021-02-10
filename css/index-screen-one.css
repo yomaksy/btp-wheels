@@ -76,4 +76,5 @@ h1 span:nth-child(odd) {
     width: 100%;
     top: 0;
     left: 0;
+    filter: saturate(1.5) brightness(0.6) contrast(0.9) grayscale(0.33);
 }
