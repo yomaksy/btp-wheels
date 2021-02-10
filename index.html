@@ -20,12 +20,12 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div id="btp-wheels">
-                <span class="btp-logo-one">BTP</span>
-                <span class="btp-logo-two">Wheels.</span>
-            </div>
-            <ul class="menu">
+        <div id="btp-wheels">
+            <span class="btp-logo-one">BTP</span>
+            <span class="btp-logo-two">Wheels.</span>
+        </div>
+        <nav class="menu">
+            <ul>
                 <li><a href="#about-us">About us</a></li>
                 <li>
                     <div class="dropdown">
@@ -39,16 +39,16 @@
                 <li><a href="#club">Club</a></li>
                 <li><a href="#contacts">Contacts</a></li>
             </ul>
-            <ul class="social-icons">
-                <li><a target="_blank" href="https://www.facebook.com"><img src="img/facebook-icon-one.svg" alt="Facebook"></a></li>
-                <li><a target="_blank" href="https://www.instagram.com"><img src="img/instagram-icon-one.svg" alt="Instagram"></a></li>
-                <li><a target="_blank" href="https://www.youtube.com"><img src="img/youtube-icon-one.svg" alt="Youtube"></a></li>
-            </ul>
         </nav>
+        <!-- <ul class="social-icons">
+            <li><a target="_blank" href="https://www.facebook.com"><img src="img/facebook-icon-one.svg" alt="Facebook"></a></li>
+            <li><a target="_blank" href="https://www.instagram.com"><img src="img/instagram-icon-one.svg" alt="Instagram"></a></li>
+            <li><a target="_blank" href="https://www.youtube.com"><img src="img/youtube-icon-one.svg" alt="Youtube"></a></li>
+        </ul> -->
     </header>
     <main>
         <div class="screen-one">
-            <video autoplay muted loop>
+            <video autoplay muted loop class="vw-golf">
                 <source src="video/vw-golf.mp4" type="video/mp4">
             </video>
             <h1>
@@ -56,7 +56,9 @@
                 <span>perform.</span>
             </h1>
             <p>We can find any wheel for your car.<br>Just send us a message.</p>
-            <a href="#contacts">Request a quote</a>
+            <div class="request-button">
+                <a href="#contacts">Request a quote</a>
+            </div>
             <div class="screen-one-contacts">
                 <div>
                     <span>Call Us 24/7</span>
@@ -69,7 +71,7 @@
             </div>
         </div>
         <div id="about-us">
-            <img src="img/ken-block.jpg" alt="Ken Block">
+            <img src="#" alt="Ken Block">
             <h3>/ Who we are</h3>
             <h2>
                 <span>Born</span>

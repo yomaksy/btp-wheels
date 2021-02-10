@@ -2,25 +2,78 @@ h1 {
     font-size: 110px;
     font-style: italic;
     text-transform: uppercase;
+    position: absolute;
+    color: var(--white-color);
+    margin-left: 367px;
+    margin-top: -651px;
+    display: flex;
+    flex-direction: column;
 }
 h1 span:nth-child(odd) {
     font-weight: normal;
+    margin: -23px 0;
+}
+.screen-one {
+    position: relative;
+    padding-top: 45.8%;
+    overflow: hidden;
 }
 .screen-one p {
+    position: relative;
     font-size: 20px;
+    color: var(--white-color);
+    margin-left: 367px;
+    margin-top: -422px;
+    line-height: 150%;
 }
 .screen-one a {
+    position: relative;
     font-family: 'Rubik', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
     font-weight: bold;
+    text-decoration: none;
+    margin-left: 367px;
+    color: var(--white-color);
+    border: 3px solid var(--white-color);
+    padding: 21px 36px;
+    letter-spacing: 0.1em;
+}
+.screen-one a:hover {
+    background-color: var(--white-color);
+    transition: 0.25s ease;
+    color: var(--black-color);
+}
+.request-button {
+    margin-top: 60px;
+}
+.screen-one-contacts {
+    position: absolute;
+    color: var(--white-color);
+    margin-left: 1167px;
+    border: 3px solid var(--white-color);
+    padding: 34px 141px 34px 34px;
+    background: rgba(28, 28, 28, 0.79);
+    margin-top: 74px;
+}
+.screen-one-contacts div {
+    display: flex;
+    flex-direction: column;
 }
 .screen-one-contacts div:nth-child(odd) span:nth-child(odd),
 .screen-one-contacts div:nth-child(even) span:nth-child(odd) {
+    position: relative;
     font-size: 24px;
     font-weight: bold;
 }
 .screen-one-contacts div:nth-child(odd) span:nth-child(even),
 .screen-one-contacts div:nth-child(even) span:nth-child(even) {
+    position: relative;
     font-size: 18px;
+}
+.vw-golf {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
