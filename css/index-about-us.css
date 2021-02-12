@@ -1,22 +1,66 @@
+#about-us {
+    font-family: var(--main-font-family);
+    color: var(--white-color);
+}
+#about-us img {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
 #about-us h3 {
+    position: absolute;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
+    margin-top: -598px;
+    margin-left: 1067px;
 }
 #about-us h2 {
+    position: absolute;
     font-size: 50px;
     font-style: italic;
     text-transform: uppercase;
+    margin-top: -565px;
 }
 #about-us h2 span:first-child {
+    position: absolute;
     font-weight: normal;
+    margin-left: 1067px;
+}
+#about-us h2 span:nth-child(2) {
+    position: absolute;
+    margin-left: 1191px;
+    font-weight: bold;
 }
 #about-us p {
+    position: absolute;
     font-size: 18px;
+    margin-left: 1067px;
+    line-height: 1.7;
+}
+.about-us-firstly {
+    margin-top: -482px;
+}
+.about-us-secondly {
+    margin-top: -273px;
 }
 #about-us a {
-    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    font-family: var(--button-font-family);
     font-size: 12px;
-    font-weight: bold;
     text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: -113px;
+    margin-left: 1067px;
+    color: var(--white-color);
+    border: 3px solid var(--white-color);
+    padding: 19px 37px;
+    letter-spacing: 0.1em;
+}
+#about-us a:hover {
+    background-color: var(--white-color);
+    transition: 0.25s ease;
+    color: var(--black-color);
 }

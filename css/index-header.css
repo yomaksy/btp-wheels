@@ -2,7 +2,9 @@
     --black-color: #000;
     --white-color: #fff;
     --soft-red-color: #e53e2b;
-    font-family: 'Roboto Condensed', sans-serif;
+    --grey-color: #f7f7f7;
+    --main-font-family: 'Roboto Condensed', sans-serif;
+    --button-font-family: 'Rubik', sans-serif;
     scroll-behavior: smooth;
 }
 body {
@@ -16,8 +18,12 @@ header {
 #btp-wheels {
     font-size: 31px;
     font-style: italic;
-    margin-left: 367px;
-    margin-top: 33px;
+    margin-left: 366px;
+    margin-top: 27px;
+}
+.btp-logo-one,
+.btp-logo-two {
+    font-family: var(--main-font-family);
 }
 .btp-logo-one {
     font-weight: bold;
@@ -29,6 +35,7 @@ header {
 }
 .menu {
     font-size: 18px;
+    font-family: var(--main-font-family);
 }
 header .menu ul {
     display: flex;
@@ -36,7 +43,7 @@ header .menu ul {
     list-style-type: none;
 }
 header .menu li {
-    margin: 23px 20px;
+    margin: 39px 26px;
 }
 header .menu li a {
     text-decoration: none;

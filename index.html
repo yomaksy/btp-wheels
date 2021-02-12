@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index-header.css">
     <link rel="stylesheet" href="css/index-screen-one.css">
     <link rel="stylesheet" href="css/index-about-us.css">
@@ -17,6 +18,7 @@
     <link rel="stylesheet" href="css/index-club.css">
     <link rel="stylesheet" href="css/index-partners.css">
     <link rel="stylesheet" href="css/index-contacts.css">
+    <link rel="stylesheet" href="index.js">
 </head>
 <body>
     <header>
@@ -71,31 +73,55 @@
             </div>
         </div>
         <div id="about-us">
-            <img src="#" alt="Ken Block">
+            <img src="img/photos/ken-block.jpg" alt="Ken Block">
             <h3>/ Who we are</h3>
             <h2>
                 <span>Born</span>
                 <span>badass.</span>
             </h2>
-            <p>Positioned as a young brand, BTP Wheels has a high standing<br>
+            <p class="about-us-firstly">Positioned as a young brand, BTP Wheels has a high standing<br>
                 among aficionados of sophisticated rims and tuning experts.<br>
                 We pride ourselves in our ability to provide every road enthusiast<br>
                 with the aesthetics and function they desire in a variety of<br>
                 fitments. BTP Wheels offers the most complete line of real badass<br>
                 wheels on the road market today.</p>
-            <p>The wheels are available 24/7. No matter where in Europe a BTP<br>
+            <p class="about-us-secondly">The wheels are available 24/7. No matter where in Europe a BTP<br>
                 wheel is needed, thanks to a vast supplier network and a 24-h<br>
                 shipping service, the dream wheel will reach almost all corners of<br>
                 the continent promptly.</p>
             <a href="#new-arrivals">Browse the wheels</a>
         </div>
         <div id="new-arrivals">
-           <h3>/ Wheels</h3> 
-           <h2>
-               <span>New</span>
-               <span>arrivals.</span>
-           </h2>
-           <a href="aerodisc.html"><img src="img/rotiform-aero-white-one.png" alt="Rotiform Aero White"></a>
+            <h3>/ Wheels</h3>
+            <h2>
+                <span>New</span>
+                <span>arrivals.</span>
+            </h2>
+            <div class="new-arrivals-slider">
+                <div class="slider">
+                    <div class="slider__item filter">
+                        <a href="aerodisc.html"><img src="img/wheels/ronal-r-ten-turbo-one.png" alt="Ronal R10 Turbo"></a>
+                    </div>
+                    <div class="slider__item">
+                        <a href="aerodisc.html"><img src="img/wheels/rotiform-aero-black-one.png" alt="Rotiform Aero Black"></a>
+                    </div>
+                    <div class="slider__item filter">
+                        <a href="aerodisc.html"><img src="img/wheels/rotiform-aero-white-one.png" alt="Rotiform Aero White"></a>
+                    </div>
+                    <div class="slider__item">
+                        <a href="forged.html"><img src="img/wheels/rotiform-kb-one-white-one.png" alt="Rotiform KB1"></a>
+                    </div>
+                    <div class="slider__item filter">
+                        <a href="forged.html"><img src="img/wheels/fuel-ff-ninety-six-one.png" alt="Fuel FF96"></a>
+                    </div>
+                    <div class="slider__item">
+                        <a href="forged.html"><img src="img/wheels/fuel-block-one.png" alt="Fuel Block"></a>
+                    </div>
+                </div>
+                <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+                <script src="js/slick.min.js"></script>
+                <script src="js/wheels-slider.js"></script>
+            </div>
         </div>
         <div id="showroom">
             <img src="img/rotiform-aero-drawing.png" alt="Rotiform Aero Drawing">
@@ -248,5 +274,6 @@
             <p>BTP Wheels.</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
