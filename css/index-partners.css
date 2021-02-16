@@ -24,7 +24,7 @@
         flex: 0 1 50%;
     }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1200px) {
     .partners-logos img {
         width: 16%;
         flex: 0 1 auto;
