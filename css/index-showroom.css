@@ -1,13 +1,21 @@
+#showroom {
+    background-image: url(../img/other/rotiform-aero-drawing-soft-black.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #1e1e1e;
+    height: 763px;
+}
 #showroom h3 {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #e53e2b;
+    color: var(--soft-red-color);
 }
 #showroom h2 {
     font-size: 50px;
     font-style: italic;
     text-transform: uppercase;
+    color: var(--white-color);
 }
 #showroom h2 span:first-child {
     font-weight: normal;
