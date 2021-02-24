@@ -1,6 +1,5 @@
 # BTP Wheels
-<i>When children’s dreams come true …<br>in this case that’s Web Design.</i><br>
-<br> <br>
+<i>When children’s dreams come true …<br>in this case that’s Web Design.</i><br><br>
 Hello. My name is Alex and this is my SoftServe course project.<br>
 Born To Perform is a wheels boutique inspired by the Stance culture and automotive festivals like Raceism and Wekfest.
 ## Run
