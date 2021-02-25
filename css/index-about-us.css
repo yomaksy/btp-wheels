@@ -1,66 +1,67 @@
 #about-us {
     font-family: var(--main-font-family);
     color: var(--white-color);
-}
-#about-us img {
-    display: block;
-    position: relative;
+    background-image: url(../img/photos/ken-block-one.jpg);
+    min-height: 712px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-
 #about-us h3 {
-    position: absolute;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: -598px;
-    margin-left: 1067px;
 }
 #about-us h2 {
-    position: absolute;
+    padding-top: 6px;
     font-size: 50px;
     font-style: italic;
     text-transform: uppercase;
-    margin-top: -565px;
 }
 #about-us h2 span:first-child {
-    position: absolute;
     font-weight: normal;
-    margin-left: 1067px;
 }
 #about-us h2 span:nth-child(2) {
-    position: absolute;
-    margin-left: 1191px;
     font-weight: bold;
 }
 #about-us p {
-    position: absolute;
+    padding-top: 18px;
     font-size: 18px;
-    margin-left: 1067px;
     line-height: 1.7;
 }
-.about-us-firstly {
-    margin-top: -482px;
-}
-.about-us-secondly {
-    margin-top: -273px;
-}
 #about-us a {
-    position: absolute;
     font-family: var(--button-font-family);
     font-size: 12px;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
-    margin-top: -113px;
-    margin-left: 1067px;
     color: var(--white-color);
     border: 3px solid var(--white-color);
     padding: 19px 37px;
     letter-spacing: 0.1em;
+    margin-top: 25px;
 }
 #about-us a:hover {
     background-color: var(--white-color);
     transition: 0.25s ease;
     color: var(--black-color);
+}
+@media (min-width: 950px) {
+    #about-us {
+        align-items: flex-end;
+        padding-right: 365px;
+        text-align: left;
+    }
+    #about-us h3 {
+        padding-right: 365px;
+    }
+    #about-us h2 {
+        padding-right: 168px; 
+    }
+    #about-us a {
+        margin-right: 242px;
+    }
 }
