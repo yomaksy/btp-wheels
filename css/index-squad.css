@@ -30,19 +30,19 @@
     height: 100%;
     position: absolute;
     z-index: 0;
-    background-color: var(--dark-grey-color);
+    background-color: var(--grey-color-two);
     opacity: 0.18;
 }
 
 .squad-content {
-    color: var(--soft-white-color);
+    color: var(--white-color);
     position: relative;
     z-index: 1;
     padding-left: 300px;
 }
 
 .button-type-two {
-    color: var(--soft-white-color);
+    color: var(--white-color);
     display: flex;
     flex-direction: row;
     align-items: center;
