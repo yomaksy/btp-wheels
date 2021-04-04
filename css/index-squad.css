@@ -3,17 +3,17 @@
 }
 
 .squad-slider .swiper-slide:first-child {
-    background-image: url(../img/photos/victoria-nguyen.jpg);
+    background-image: url(../img/people/victoria-nguyen.jpg);
     background-position-y: 80%;
 }
 
 .squad-slider .swiper-slide:nth-child(2) {
-    background-image: url(../img/photos/alex-maks.jpg);
+    background-image: url(../img/people/alex-maks.jpg);
     background-position-y: 78%;
 }
 
 .squad-slider .swiper-slide:nth-child(3) {
-    background-image: url(../img/photos/ken-block.jpg);
+    background-image: url(../img/people/ken-block.jpg);
     background-position-y: 70%;
 }
 

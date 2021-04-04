@@ -1,0 +1,51 @@
+.showroom {
+    background-color: var(--grey-color-one);
+}
+
+.showroom-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+.showroom-content h2 {
+    display: flex;
+}
+
+.showroom-content h3,
+.wheel-slider .swiper-button-next,
+.wheel-slider .swiper-button-prev {
+    color: var(--soft-red-color);
+}
+
+.wheel-slider {
+    height: 35vh;
+    width: 75vw;
+}
+
+.wheel-slider .swiper-slide {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+}
+
+.wheel-slider .wheel-one {
+    background-image: url(../img/wheels/rotiform-aerodisc-gloss_white_w_silver_hex-one.png);
+}
+
+.wheel-slider .wheel-two {
+    background-image: url(../img/wheels/rotiform-kb_one-matte_anthracite-one.png);
+}
+
+.wheel-slider .wheel-three {
+    background-image: url(../img/wheels/rotiform-wro-matte_ceramic_silver-one.png);
+}
+
+.wheel-slider .wheel-four {
+    background-image: url(../img/wheels/rotiform-bm_one-brushed_gloss_clear_with_black_windows-one.png);
+}
+
+.wheel-slider .wheel-five {
+    background-image: url(../img/wheels/rotiform-bkk-anthracite_w_black_lip-one.png);
+}
