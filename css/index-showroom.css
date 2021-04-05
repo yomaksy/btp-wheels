@@ -35,7 +35,7 @@
 }
 
 .wheel-slider .wheel-two {
-    background-image: url(../img/wheels/rotiform-kb_one-matte_anthracite-one.png);
+    background-image: url(../img/wheels/rotiform-kb1-matte_anthracite-one.png);
 }
 
 .wheel-slider .wheel-three {
@@ -43,9 +43,13 @@
 }
 
 .wheel-slider .wheel-four {
-    background-image: url(../img/wheels/rotiform-bm_one-brushed_gloss_clear_with_black_windows-one.png);
+    background-image: url(../img/wheels/rotiform-bm1-brushed_gloss_clear_with_black_windows-one.png);
 }
 
 .wheel-slider .wheel-five {
     background-image: url(../img/wheels/rotiform-bkk-anthracite_w_black_lip-one.png);
+}
+
+.wheel-slider .wheel-six {
+    background-image: url(../img/wheels/dub-asterix_s818-brushed_w_polished_windows-one.png);
 }
