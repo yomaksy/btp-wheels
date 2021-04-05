@@ -2,7 +2,7 @@ header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    height: 8vh; /*changed from min- to height*/
     background-color: var(--white-color);
 }
 
@@ -75,7 +75,7 @@ header nav {
     .header-nav-links {
         position: absolute;
         right: 0;
-        height: 92vh;
+        height: 50vh; /*changed to 50 from 92*/
         top: 8vh;
         background-color: var(--white-color);
         display: flex;
