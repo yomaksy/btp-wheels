@@ -17,6 +17,11 @@
     --swiper-navigation-size: 24px;
 }
 
+.overflow-wrapper {
+    overflow-x: hidden;
+    position: relative;
+}
+
 h1,
 h2,
 h3 {

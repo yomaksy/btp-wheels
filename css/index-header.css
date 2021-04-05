@@ -68,8 +68,7 @@ header nav {
 }
 
 @media screen and (max-width: 768px) {
-    body,
-    .wrapper {
+    body {
         overflow-x: hidden;
     }
 

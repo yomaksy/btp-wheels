@@ -40,6 +40,12 @@
     padding-top: 10px;
 }
 
+@media screen and (max-width: 768px) {
+    .home-content h1 {
+        font-size: 70px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .home-content {
         padding-left: 10vw;
