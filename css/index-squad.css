@@ -1,3 +1,7 @@
+#squad {
+    background-color: var(--black-color-two);
+}
+
 .squad-slider {
     height: 82vh;
 }
