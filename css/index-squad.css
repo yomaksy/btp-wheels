@@ -60,9 +60,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .squad-slider {
+    /*.squad-slider {
         height: 56vh;
-    }
+    }*/
 
     .squad-content {
         padding-left: 10vw;
