@@ -51,13 +51,17 @@
 }
 
 .wheel-slider .wheel-six {
-    background-image: url(../img/wheels/niche-verona_m150-black_n_brushed_w_double_dark_tint-one.png);
+    background-image: url(../img/wheels/rotiform-917-matte_black-one.png);
 }
 
 .wheel-slider .wheel-seven {
-    background-image: url(../img/wheels/us_mags-u125_boulevard-anthracite_w_diamond_cut_lip-one.png);
+    background-image: url(../img/wheels/niche-verona_m150-black_n_brushed_w_double_dark_tint-one.png);
 }
 
 .wheel-slider .wheel-eight {
+    background-image: url(../img/wheels/us_mags-u125_boulevard-anthracite_w_diamond_cut_lip-one.png);
+}
+
+.wheel-slider .wheel-nine {
     background-image: url(../img/wheels/dub-cojones_S243-gloss_black_n_machined-one.png);
 }
