@@ -11,11 +11,20 @@
 
 .showroom-content h2 {
     display: flex;
+    color: var(--black-color-one);
 }
 
-.showroom-content h3,
+.showroom-content h3 {
+    color: var(--soft-red-color);
+}
+
 .wheel-slider .swiper-button-next,
 .wheel-slider .swiper-button-prev {
+    color: var(--black-color-two);
+}
+
+.wheel-slider .swiper-button-next:hover,
+.wheel-slider .swiper-button-prev:hover {
     color: var(--soft-red-color);
 }
 
