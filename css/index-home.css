@@ -44,10 +44,10 @@
     display: flex;
     justify-content: center;
 }
-.scroll-down a {
+.scroll-down button {
     position: absolute;
     z-index: 1;
-    padding-top: 80vh;
+    margin-top: 80vh;
 }
 
 @media screen and (max-width: 768px) {
