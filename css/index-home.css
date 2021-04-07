@@ -40,6 +40,16 @@
     padding-top: 10px;
 }
 
+.scroll-down {
+    display: flex;
+    justify-content: center;
+}
+.scroll-down a {
+    position: absolute;
+    z-index: 1;
+    padding-top: 80vh;
+}
+
 @media screen and (max-width: 768px) {
     .home-content h1 {
         font-size: 70px;

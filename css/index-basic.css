@@ -5,6 +5,10 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --black-color-one: #1c1c1c;
     --black-color-two: #333;
@@ -12,7 +16,6 @@
     --grey-color-two: #536162;
     --white-color: #fffdf6;
     --soft-red-color: #e53e2b;
-    --soft-green-color: #00917c;
     --swiper-theme-color: #fffdf6;
     --swiper-navigation-size: 24px;
 }
