@@ -47,12 +47,16 @@
 .scroll-down button {
     position: absolute;
     z-index: 1;
-    margin-top: 80vh;
+    margin-top: 85vh;
     border: none;
     background-color: transparent;
     outline: none;
     cursor: pointer;
     color: var(--white-color);
+}
+
+.fad {
+    font-size: 24px;
 }
 
 @media screen and (max-width: 768px) {
