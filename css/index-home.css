@@ -48,6 +48,11 @@
     position: absolute;
     z-index: 1;
     margin-top: 80vh;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: var(--white-color);
 }
 
 @media screen and (max-width: 768px) {
