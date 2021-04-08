@@ -25,6 +25,18 @@ footer h2 {
     line-height: 1em;
 }
 
+footer h3 {
+    color: var(--white-color);
+    font-style: italic;
+    letter-spacing: 0.2em;
+    display: flex;
+    align-items: center;
+}
+
+footer h3 span:first-child {
+    padding-right: 5px;
+}
+
 .footer-nav-links,
 .footer-social-links {
     list-style: none;
@@ -32,11 +44,10 @@ footer h2 {
 
 .footer-nav-links {
     display: flex;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
-.footer-nav-links li:nth-child(-n+4),
-.footer-social-links li:nth-child(-n+4) {
+.footer-nav-links li:nth-child(-n+4) {
     padding-right: 30px;
 }
 
@@ -58,11 +69,33 @@ footer h2 {
 
 .footer-social-links {
     display: flex;
-    padding-top: 30px;
+    align-items: center;
+    padding-top: 20px;
 }
 
-.footer-social-links .fab,
-.footer-social-links .far {
+.footer-social-links li:first-child {
+    color: var(--white-color);
+    font-size: 24px;
+    text-transform: uppercase;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    padding-right: 46px;
+}
+
+.footer-social-links li:first-child span:nth-child(n+1):nth-child(-n+2) {
+    padding-right: 4px;
+}
+
+.footer-social-links li:first-child span:nth-child(3) {
+    font-weight: bold;
+}
+
+.footer-social-links li:nth-child(n+2):nth-child(-n+3) {
+    padding-right: 15px;
+}
+
+.footer-social-links .fab {
     color: var(--white-color);
     font-size: 24px;
 }
