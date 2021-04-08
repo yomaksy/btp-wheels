@@ -45,6 +45,7 @@ footer h3 span:first-child {
 .footer-nav-links {
     display: flex;
     padding-top: 20px;
+    font-weight: bold;
 }
 
 .footer-nav-links li:nth-child(-n+4) {
@@ -54,7 +55,7 @@ footer h3 span:first-child {
 .footer-nav-links a {
     color: var(--white-color);
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 0.1em;
     background-image: linear-gradient(var(--white-color), var(--white-color));
     background-position: 0% 100%;
     background-repeat: no-repeat;
@@ -80,7 +81,7 @@ footer h3 span:first-child {
     font-style: italic;
     display: flex;
     align-items: center;
-    padding-right: 46px;
+    padding-right: 66px;
 }
 
 .footer-social-links li:first-child span:nth-child(n+1):nth-child(-n+2) {
