@@ -11,10 +11,6 @@ header nav {
     font-size: 24px;
     font-style: italic;
     text-decoration: none;
-    cursor: pointer;
-    outline: none;
-    background-color: transparent;
-    border: none;
 }
 
 .header-logo span:first-child {
