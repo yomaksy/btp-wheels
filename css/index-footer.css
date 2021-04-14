@@ -111,25 +111,33 @@ footer h3 span:first-child {
 }
 
 .subscribe-container input[type=email] {
+    width: 105%;
     outline: none;
     padding-bottom: 5px;
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid var(--white-color);
     color: var(--white-color);
     font-size: 16px;
     letter-spacing: 0.1em;
+    background-image: linear-gradient(var(--white-color), var(--white-color));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.subscribe-container input[type=email]:focus {
+    background-size: 100% 2px;
 }
 
 .subscribe-container input::placeholder {
     color: var(--white-color);
     letter-spacing: 0.1em;
     opacity: 0.8;
-    text-align: center;
 }
 
 .subscribe-container button {
-    margin-left: 20px;
+    margin-left: 30px;
     background-color: transparent;
     outline: none;
     border: none;
