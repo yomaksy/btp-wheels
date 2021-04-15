@@ -134,7 +134,11 @@ footer h3 span:first-child {
 .subscribe-container input::placeholder {
     color: var(--white-color);
     letter-spacing: 0.1em;
-    opacity: 0.8;
+    opacity: 0.9;
+}
+
+.subscribe-container input:invalid {
+    box-shadow: none;
 }
 
 .subscribe-container button {
