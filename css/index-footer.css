@@ -161,5 +161,5 @@ footer h3 span:first-child {
 
 .subscribe-container button:hover {
     background-position: 0 0;
-    color: var(--anthracite-blue-color);
+    color: var(--anthracite-color-one);
 }
