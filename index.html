@@ -191,6 +191,9 @@
                                 placeholder="Come on, roll with us!"
                                 autocomplete="off"
                                 required=""
+                                title="Please type your email."
+                                oninvalid="this.setCustomValidity('Please type your email.')"
+                                oninput="setCustomValidity('')"
                             >
                         </fieldset>
                         <button>I'm in</button>
