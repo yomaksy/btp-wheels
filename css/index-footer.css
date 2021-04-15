@@ -111,9 +111,10 @@ footer h3 span:first-child {
 }
 
 .subscribe-container input[type=email] {
-    width: 105%;
+    width: 170px;
     outline: none;
-    padding-bottom: 5px;
+    padding-top: 11px;
+    padding-bottom: 11px;
     background-color: transparent;
     border: none;
     color: var(--white-color);
@@ -137,14 +138,24 @@ footer h3 span:first-child {
 }
 
 .subscribe-container button {
-    margin-left: 30px;
+    margin-left: 38px;
+    cursor: pointer;
     background-color: transparent;
     outline: none;
-    border: none;
+    border: 2px solid var(--white-color);
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 14px;
     color: var(--white-color);
-    cursor: pointer;
+    background-image: linear-gradient(to left, transparent, transparent 50%, var(--white-color) 50%, var(--white-color));
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
 }
 
-.subscribe-container .far {
-    font-size: 18px;
+.subscribe-container button:hover {
+    background-position: 0 0;
+    color: var(--anthracite-blue-color);
 }
