@@ -122,8 +122,28 @@ footer h3 span:first-child {
 }
 
 .subscribe-container .email {
-    border: 1px solid var(--white-color);
+    border: none;
     transition: .3s;
+    background-image: 
+        linear-gradient(to right, var(--white-color) 2px, transparent 2px),
+        linear-gradient(to bottom, var(--white-color) 2px, transparent 2px),
+        linear-gradient(to left, var(--white-color) 2px, transparent 2px),
+        linear-gradient(to top, var(--white-color) 2px, transparent 2px),
+        linear-gradient(to right, var(--white-color) 2px, transparent 2px),
+        linear-gradient(to top, var(--white-color) 2px, transparent 2px),
+        linear-gradient(to left, var(--white-color) 2px, transparent 2px),
+        linear-gradient(to bottom, var(--white-color) 2px, transparent 2px);
+    background-position: 
+        0 0,
+        0 0,
+        100% 100%,
+        100% 100%,
+        0 100%,
+        0 100%,
+        100% 0,
+        100% 0;
+    background-repeat: no-repeat;
+    background-size: 8px 8px;
 }
 
 .subscribe-container .email ~ .focus-border::before,
