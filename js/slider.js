@@ -1,17 +1,4 @@
-const swiper = new Swiper('.squad-slider', {
-  centeredSlides: true,
-  speed: 600,
-  autoplay: {
-    delay: 5000,
-    disableOnInteraction: false,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-});
-
-const swiperTwo = new Swiper('.wheel-slider', {
+const wheelSwiper = new Swiper('.wheel-slider', {
   slidesPerView: 1,
   speed: 600,
   loop: true,
@@ -31,4 +18,17 @@ const swiperTwo = new Swiper('.wheel-slider', {
       slidesPerView: 3,
     },
   }
+});
+
+const squadSwiper = new Swiper('.squad-slider', {
+  centeredSlides: true,
+  speed: 600,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 });

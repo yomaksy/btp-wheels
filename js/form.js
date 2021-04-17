@@ -1,20 +1,20 @@
-const form = document.getElementById("subscribe-form");
+const subscribeForm = document.getElementById("subscribe-form");
     
     async function handleSubmit(event) {
       event.preventDefault();
-      const status = document.getElementById("subscription-status");
+      const status = document.getElementById("subscribe-status");
       const data = new FormData(event.target);
       fetch(event.target.action, {
-        method: form.method,
+        method: subscribeForm.method,
         body: data,
         headers: {
             'Accept': 'application/json'
         }
       }).then(response => {
         // status.innerHTML = "Thanks for your submission!";
-        form.reset()
+        subscribeForm.reset()
       }).catch(error => {
         status.innerHTML = "Oops! There was a problem submitting your form"
       });
     }
-    form.addEventListener("submit", handleSubmit)
+    subscribeForm.addEventListener("submit", handleSubmit)
