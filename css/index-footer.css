@@ -14,7 +14,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-right: 140px;
+    padding-right: 125px;
 }
 
 footer h2 {
@@ -114,7 +114,7 @@ footer h3 span:first-child {
 .subscribe-container input[type=email] {
     width: 200px;
     outline: none;
-    padding: 10px 13px;
+    padding: 10px 14px;
     background-color: transparent;
     color: var(--white-color);
     font-size: 16px;
