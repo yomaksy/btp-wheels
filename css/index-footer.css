@@ -108,33 +108,78 @@ footer h3 span:first-child {
 
 .subscribe-container fieldset {
     border: none;
+    position: relative;
 }
 
 .subscribe-container input[type=email] {
-    width: 170px;
+    width: 200px;
     outline: none;
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding: 10px 13px;
     background-color: transparent;
-    border: none;
     color: var(--white-color);
     font-size: 16px;
     letter-spacing: 0.1em;
-    background-image: linear-gradient(var(--white-color), var(--white-color));
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
 }
 
-.subscribe-container input[type=email]:focus {
-    background-size: 100% 2px;
+.subscribe-container .email {
+    border: 1px solid var(--white-color);
+    transition: .3s;
+}
+
+.subscribe-container .email ~ .focus-border::before,
+.subscribe-container .email ~ .focus-border::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--white-color);
+    transition: .3s;
+}
+
+.subscribe-container .email ~ .focus-border::after {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+}
+
+.subscribe-container .email ~ .focus-border i::before,
+.subscribe-container .email ~ .focus-border i::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+    background-color: var(--white-color);
+    transition: .3s;
+}
+
+.subscribe-container .email ~ .focus-border i::after {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+}
+
+.subscribe-container .email:focus ~ .focus-border::before,
+.subscribe-container .email:focus ~ .focus-border::after {
+    width: 100%;
+    transition: .3s;
+}
+
+.subscribe-container .email:focus ~ .focus-border i::before,
+.subscribe-container .email:focus ~ .focus-border i::after {
+    height: 100%;
+    transition: .3s;
 }
 
 .subscribe-container input::placeholder {
     color: var(--white-color);
     letter-spacing: 0.1em;
-    opacity: 0.9;
+    opacity: .9;
 }
 
 .subscribe-container input:invalid {
