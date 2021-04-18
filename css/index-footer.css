@@ -122,7 +122,7 @@ footer {
     outline: none;
     width: 200px;
     background-color: transparent;
-    border: 2px solid var(--anthracite-color-two);
+    border: 2px dashed rgba(255, 255, 255, .8);
     color: var(--white-color);
     letter-spacing: .1em;
     font-size: 16px;
