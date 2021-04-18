@@ -14,86 +14,93 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-right: 125px;
+    padding-right: 120px;
 }
 
-footer h2 {
+.footer-content h2 {
     padding-top: 0;
     display: flex;
     flex-direction: column;
-    color: var(--white-color);
+    align-items: center;
     line-height: 1em;
+    color: var(--white-color);
 }
 
-footer h3 {
-    color: var(--white-color);
-    font-style: italic;
-    letter-spacing: 0.2em;
+.footer-content h3 {
     display: flex;
     align-items: center;
+    letter-spacing: .2em;
+    color: var(--white-color);
+    font-style: italic;
 }
 
-footer h3 span:first-child {
+.footer-content h3 span:first-child {
     padding-right: 5px;
-}
-
-.footer-nav-links,
-.footer-social-links {
-    list-style: none;
 }
 
 .footer-nav-links {
     display: flex;
+    list-style: none;
     padding-top: 20px;
-    font-weight: bold;
 }
 
 .footer-nav-links li:nth-child(-n+4) {
-    padding-right: 37px;
+    padding-right: 40px;
 }
 
 .footer-nav-links a {
-    color: var(--white-color);
     text-decoration: none;
-    letter-spacing: 0.1em;
+    color: var(--white-color);
+    letter-spacing: .1em;
+    font-size: 16px;
+    font-weight: bold;
     background-image: linear-gradient(var(--white-color), var(--white-color));
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
-    padding-bottom: 0.2em;
+    padding-bottom: .2em;
 }
 
 .footer-nav-links a:hover {
     background-size: 100% 2px;
 }
 
-.footer-social-links {
+.about-me {
     display: flex;
-    align-items: center;
-    padding-top: 20px;
 }
 
-.footer-social-links li:first-child {
+.copyright {
+    display: flex;
+    align-items: center;
     color: var(--white-color);
-    font-size: 24px;
+    padding-top: 20px;
+    padding-right: 95px;
     text-transform: uppercase;
+    font-size: 24px;
+}
+
+.copyright .material-icons {
+    padding-right: 5px;
+}
+
+.copyright div {
     font-style: italic;
-    display: flex;
-    align-items: center;
-    padding-right: 66px;
 }
 
-.footer-social-links li:first-child span:nth-child(n+1):nth-child(-n+2) {
-    padding-right: 4px;
-}
-
-.footer-social-links li:first-child span:nth-child(3) {
+.copyright div span:nth-child(2) {
     font-weight: bold;
 }
 
-.footer-social-links li:nth-child(n+2):nth-child(-n+3) {
-    padding-right: 30px;
+.footer-social-links {
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.footer-social-links li:nth-child(-n+2) {
+    padding-right: 20px;
 }
 
 .footer-social-links .fab {
@@ -112,193 +119,19 @@ footer h3 span:first-child {
 }
 
 .subscribe-container input[type=email] {
-    width: 200px;
     outline: none;
-    padding: 10px 14px;
+    width: 200px;
     background-color: transparent;
+    border: 1px solid var(--white-color);
     color: var(--white-color);
+    letter-spacing: .1em;
     font-size: 16px;
-    letter-spacing: 0.1em;
-}
-
-.subscribe-container #email {
-    border: none;
-    transition: .4s;
-    background-image:
-        linear-gradient(to right, var(--white-color) 2px, transparent 2px),
-        linear-gradient(to bottom, var(--white-color) 2px, transparent 2px),
-        linear-gradient(to left, var(--white-color) 2px, transparent 2px),
-        linear-gradient(to top, var(--white-color) 2px, transparent 2px),
-        linear-gradient(to right, var(--white-color) 2px, transparent 2px),
-        linear-gradient(to top, var(--white-color) 2px, transparent 2px),
-        linear-gradient(to left, var(--white-color) 2px, transparent 2px),
-        linear-gradient(to bottom, var(--white-color) 2px, transparent 2px);
-    background-position:
-        0 0,
-        0 0,
-        100% 100%,
-        100% 100%,
-        0 100%,
-        0 100%,
-        100% 0,
-        100% 0;
-    background-repeat: no-repeat;
-    background-size: 7px 7px;
-}
-
-.subscribe-container .fx-one ~ .focus-border-one::before,
-.subscribe-container .fx-one ~ .focus-border-one::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--white-color);
-    transition: .4s;
-}
-
-.subscribe-container .fx-one ~ .focus-border-one::after {
-    top: auto;
-    bottom: 0;
-    left: auto;
-    right: 0;
-}
-
-.subscribe-container .fx-one ~ .focus-border-one i::before,
-.subscribe-container .fx-one ~ .focus-border-one i::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 2px;
-    height: 0;
-    background-color: var(--white-color);
-    transition: .5s;
-}
-
-.subscribe-container .fx-one ~ .focus-border-one i::after {
-    left: auto;
-    right: 0;
-    top: auto;
-    bottom: 0;
-}
-
-.subscribe-container .fx-one:focus ~ .focus-border-one::before,
-.subscribe-container .fx-one:focus ~ .focus-border-one::after {
-    width: 50%;
-    transition: .4s;
-}
-
-.subscribe-container .fx-one:focus ~ .focus-border-one i::before,
-.subscribe-container .fx-one:focus ~ .focus-border-one i::after {
-    height: 50%;
-    transition: .5s;
-}
-
-.subscribe-container .fx-two ~ .focus-border-two::before,
-.subscribe-container .fx-two ~ .focus-border-two::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--white-color);
-    transition: .4s;
-}
-
-.subscribe-container .fx-two ~ .focus-border-two::after {
-    top: auto;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.subscribe-container .fx-two ~ .focus-border-two i::before,
-.subscribe-container .fx-two ~ .focus-border-two i::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 2px;
-    height: 0;
-    background-color: var(--white-color);
-    transition: .5s;
-}
-
-.subscribe-container .fx-two ~ .focus-border-two i::after {
-    left: 0;
-    right: 0;
-    top: auto;
-    bottom: 0;
-}
-
-.subscribe-container .fx-two:focus ~ .focus-border-two::before,
-.subscribe-container .fx-two:focus ~ .focus-border-two::after {
-    width: 50%;
-    transition: .4s;
-}
-
-.subscribe-container .fx-two:focus ~ .focus-border-two i::before,
-.subscribe-container .fx-two:focus ~ .focus-border-two i::after {
-    height: 50%;
-    transition: .5s;
-}
-
-.subscribe-container .fx-three ~ .focus-border-three::before,
-.subscribe-container .fx-three ~ .focus-border-three::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--white-color);
-    transition: .4s;
-}
-
-.subscribe-container .fx-three ~ .focus-border-three::after {
-    top: 0;
-    bottom: 0;
-    left: auto;
-    right: 0;
-}
-
-.subscribe-container .fx-three ~ .focus-border-three i::before,
-.subscribe-container .fx-three ~ .focus-border-three i::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 2px;
-    height: 0;
-    background-color: var(--white-color);
-    transition: .5s;
-}
-
-.subscribe-container .fx-three ~ .focus-border-three i::after {
-    left: auto;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-
-.subscribe-container .fx-three:focus ~ .focus-border-three::before,
-.subscribe-container .fx-three:focus ~ .focus-border-three::after {
-    width: 50%;
-    transition: .4s;
-}
-
-.subscribe-container .fx-three:focus ~ .focus-border-three i::before,
-.subscribe-container .fx-three:focus ~ .focus-border-three i::after {
-    height: 50%;
-    transition: .5s;
+    padding: 10px 14px;
 }
 
 .subscribe-container input::placeholder {
     color: var(--white-color);
-    letter-spacing: 0.1em;
+    letter-spacing: .1em;
     opacity: .9;
 }
 
@@ -307,17 +140,17 @@ footer h3 span:first-child {
 }
 
 .subscribe-container button {
-    margin-left: 30px;
     cursor: pointer;
+    margin-left: 50px;
     background-color: transparent;
     outline: none;
-    border: 2px solid var(--white-color);
     width: 200px;
+    border: 2px solid var(--white-color);
     text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    font-size: 14px;
     color: var(--white-color);
+    font-size: 14px;
+    letter-spacing: .1em;
+    font-weight: bold;
     background-image: linear-gradient(to left, transparent, transparent 50%, var(--white-color) 50%, var(--white-color));
     background-position: 100% 0;
     background-size: 200% 100%;
