@@ -122,12 +122,36 @@ footer {
     outline: none;
     width: 200px;
     background-color: transparent;
-    border: 2px dashed rgba(255, 255, 255, .8);
+    /*border: 2px dashed rgba(255, 255, 255, .8);*/
     color: var(--white-color);
     letter-spacing: .1em;
     font-size: 16px;
     padding: 10px 14px;
     transition: .4s;
+}
+
+.subscribe-container .email {
+    border: none;
+    background-image:
+        linear-gradient(to right, var(--white-color) 2px, transparent 2px),
+        linear-gradient(to bottom, var(--white-color) 2px, transparent 2px),
+        linear-gradient(to right, var(--white-color) 2px, transparent 2px),
+        linear-gradient(to top, var(--white-color) 2px, transparent 2px),
+        linear-gradient(to left, var(--white-color) 2px, transparent 2px),
+        linear-gradient(to bottom, var(--white-color) 2px, transparent 2px),
+        linear-gradient(to left, var(--white-color) 2px, transparent 2px),
+        linear-gradient(to top, var(--white-color) 2px, transparent 2px);
+    background-position:
+        0 0,
+        0 0,
+        0 100%,
+        0 100%,
+        100% 0,
+        100% 0,
+        100% 100%,
+        100% 100%;
+    background-size: 7px 7px;
+    background-repeat: no-repeat;
 }
 
 .subscribe-container .email ~ .focus-border::before,
