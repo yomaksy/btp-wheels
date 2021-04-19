@@ -11,7 +11,7 @@ const subscribeForm = document.getElementById("subscribe-form");
             'Accept': 'application/json'
         }
       }).then(response => {
-        status.innerHTML = "Thanks for your submission!";
+        // status.innerHTML = "Thanks for your submission!";
         subscribeForm.reset()
       }).catch(error => {
         status.innerHTML = "Oops! There was a problem submitting your form"
