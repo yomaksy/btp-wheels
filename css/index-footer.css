@@ -115,112 +115,31 @@ footer {
 
 .subscribe-container fieldset {
     border: none;
-    position: relative;
 }
 
 .subscribe-container input[type=email] {
-    outline: none;
     width: 200px;
+    outline: none;
     background-color: transparent;
-    /*border: 2px dashed rgba(255, 255, 255, .8);*/
     color: var(--white-color);
     letter-spacing: .1em;
     font-size: 16px;
     padding: 10px 14px;
-    transition: .4s;
     border-radius: unset;
 }
 
 .subscribe-container .email {
-    border: none;
-    background-image:
-        linear-gradient(to right, var(--white-color) 2px, transparent 2px),
-        linear-gradient(to bottom, var(--white-color) 2px, transparent 2px),
-        linear-gradient(to right, var(--white-color) 2px, transparent 2px),
-        linear-gradient(to top, var(--white-color) 2px, transparent 2px),
-        linear-gradient(to left, var(--white-color) 2px, transparent 2px),
-        linear-gradient(to bottom, var(--white-color) 2px, transparent 2px),
-        linear-gradient(to left, var(--white-color) 2px, transparent 2px),
-        linear-gradient(to top, var(--white-color) 2px, transparent 2px);
-    background-position:
-        0 0,
-        0 0,
-        0 100%,
-        0 100%,
-        100% 0,
-        100% 0,
-        100% 100%,
-        100% 100%;
-    background-size: 7px 7px;
-    background-repeat: no-repeat;
+    border: 2px solid rgba(255, 255, 255, .7);
+    transition: border .3s;
 }
 
-.subscribe-container .email ~ .focus-border::before,
-.subscribe-container .email ~ .focus-border::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--white-color);
-    transition: .2s;
-    transition-delay: .2s;
-}
-
-.subscribe-container .email ~ .focus-border::after {
-    top: auto;
-    bottom: 0;
-    right: auto;
-    left: 0;
-    transition-delay: .6s;
-}
-
-.subscribe-container .email ~ .focus-border i::before,
-.subscribe-container .email ~ .focus-border i::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 2px;
-    height: 0;
-    background-color: var(--white-color);
-    transition: .2s;
-}
-
-.subscribe-container .email ~ .focus-border i::after {
-    left: auto;
-    right: 0;
-    top: auto;
-    bottom: 0;
-    transition-delay: .4s;
-}
-
-.subscribe-container .email:focus ~ .focus-border::before,
-.subscribe-container .email:focus ~ .focus-border::after {
-    width: 100%;
-    transition: .2s;
-    transition-delay: .6s;
-}
-
-.subscribe-container .email:focus ~ .focus-border::after {
-    transition-delay: .2s;
-}
-
-.subscribe-container .email:focus ~ .focus-border i::before,
-.subscribe-container .email:focus ~ .focus-border i::after {
-    height: 100%;
-    transition: .2s;
-}
-
-.subscribe-container .email:focus ~ .focus-border i::after {
-    transition-delay: .4s;
+.subscribe-container .email:focus {
+    border: 2px solid var(--white-color);
 }
 
 .subscribe-container input::placeholder {
-    color: var(--white-color);
+    color: rgba(255, 255, 255, .9);
     letter-spacing: .1em;
-    opacity: .9;
 }
 
 .subscribe-container input:invalid {
@@ -230,10 +149,11 @@ footer {
 .subscribe-container button {
     cursor: pointer;
     margin-left: 50px;
+    width: 200px;
     background-color: transparent;
     outline: none;
-    width: 200px;
     border: 2px solid var(--white-color);
+    border-radius: unset;
     text-transform: uppercase;
     color: var(--white-color);
     font-size: 14px;
@@ -243,7 +163,6 @@ footer {
     background-position: 100% 0;
     background-size: 200% 100%;
     transition: all .25s ease-in;
-    border-radius: unset;
 }
 
 .subscribe-container button:hover {
