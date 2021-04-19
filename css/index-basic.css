@@ -9,6 +9,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    image-rendering: -webkit-optimize-contrast;
+}
+
 :root {
     --black-color-one: #1c1c1c;
     --black-color-two: #333;
