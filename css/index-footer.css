@@ -138,8 +138,9 @@ footer {
 }
 
 .subscribe-container input::placeholder {
-    color: rgba(255, 255, 255, .9);
+    color: var(--white-color);
     letter-spacing: .1em;
+    opacity: .9;
 }
 
 .subscribe-container input:invalid {
